@@ -1,6 +1,6 @@
-##Compile for ARMv5
+## Compile for ARMv5
 
-###Example cross compile:
+### Example cross compile:
 
 ```bash
 arm-linux-gnueabi-gcc -static -O2 socks.c -o socks
@@ -21,7 +21,7 @@ Flags that help on old devices:
 -static
 -s
 ```
-###Why This Works Well on Broken Embedded Networking
+### Why This Works Well on Broken Embedded Networking
 
 Avoids:
 ```
